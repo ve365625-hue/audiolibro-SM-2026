@@ -11,10 +11,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>Proyecto Audio Libro - copia 3</title>
+<title>Proyecto Audio Libro</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="Proyecto Audio Libro - copia 3.js"></script>
+<script src="Proyecto Audio Libro.js?1778829387905"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -38,7 +38,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.ProyectoAudioLibrocopia3();
+	exportRoot = new lib.ProyectoAudioLibro();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
